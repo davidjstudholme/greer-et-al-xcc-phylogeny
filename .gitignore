@@ -9,6 +9,7 @@
 */checkm_out
 */*.jsonl
 *.dmanifest
+*/md5sum.txt
 
 
 *quast_results/latest
