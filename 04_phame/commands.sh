@@ -2,7 +2,7 @@
 #screen
 
 ### Already installed PhaME into a Conda environment
-conda activate phame_env
+#conda activate phame_env
 conda list -n phame_env > phame_env_packages.txt
 
 ### Assumes that PhaME is already installed
