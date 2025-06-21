@@ -1,4 +1,4 @@
-# Phylogenomic analysis of 14 *Xcc* isolates used in manuscript by Greer et al. (2025)
+# Phylogenomic analysis of fourteen *Xcc* isolates used in manuscript by Greer et al. (2025)
 
 Here we document the methods used to generate the phylogenomic tree seen in Figure 2 of the manuscript submitted to *Plant Pathology* by Greer and colleagues.
 
