@@ -2,6 +2,7 @@
 
 Here we document the methods used to generate the phylogenomic tree seen in Figure 2 of the manuscript submitted to *Plant Pathology* by Greer and colleagues. It uses the PhaME pipeline that is describe in this paper:
 - Shakya M, Ahmed SA, Davenport KW, Flynn MC, Lo CC, Chain PSG. Standardized phylogenetic and molecular evolutionary analysis applied to species across the microbial tree of life. Sci Rep. 2020 Feb 3;10(1):1723. 
+
 PhaME can use several different tree-building engines. Here we use FastTree 2:
 - Price MN, Dehal PS, Arkin AP. FastTree 2 – Approximately Maximum-Likelihood Trees for Large Alignments. Poon AFY, editor. PLoS ONE. 2010 Mar 10;5(3):e9490. 
 
