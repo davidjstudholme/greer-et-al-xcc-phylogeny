@@ -2,7 +2,7 @@
       workdir = ../03_workdir # directory where contigs/reads files are located and output is stored
 
     reference = 1  # 0:pick a random reference; 1:use given reference; 2: use ANI based reference
-      reffile = GCA_001908725.1_ASM190872v1_genomic.fna  # reference filename 
+      reffile = X._campestris_pv.raphani_NCPPB_1946.fasta  # reference filename 
 
       project = xcc_fastree  # main alignment file name
 

@@ -7,6 +7,8 @@ chmod u+x datasets
 unzip assemblies.zip
 ln -s ncbi_dataset/data/GCA_*/GCA_*.fna .
 
-
-### Remove the READM.md
+### Remove the README.md
 rm README.md
+
+### Make symlinks to the genome sequence files such that symlinks have informative names and appropriate extensions for input to PhaME:
+perl rename_files.pl genomes.txt

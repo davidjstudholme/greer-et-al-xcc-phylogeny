@@ -1,4 +1,5 @@
-GCA_001908725_1_ASM190872v1_genomic
+GCA_020813075_1_ASM2081307v1_genomic
+X__campestris_pv_raphani_NCPPB_1946
 147_contig
 8004_contig
 ATCC_33913_contig
