@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/1003917332.svg)](https://doi.org/10.5281/zenodo.15713394)
+
 # Phylogenomic analysis of fourteen *Xcc* isolates used in manuscript by Greer et al. (2025)
 
 Here we document the methods used to generate the phylogenomic tree seen in Figure 2 of the manuscript submitted to *Plant Pathology* by Greer and colleagues. It uses the PhaME pipeline that is describe in this paper:
