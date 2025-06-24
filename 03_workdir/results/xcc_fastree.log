@@ -1,11 +1,11 @@
 
 Running self-nucmer on /data/djs217/PROJECTS/38_Figure_for_Greer_et_al/greer-et-al-xcc-phylogeny/03_workdir/files/GCA_020813075_1_ASM2081307v1_genomic.fna
-[RUNNING:] nucmer --maxmatch --nosimplify --prefix=seq_seq3771010 /data/djs217/PROJECTS/38_Figure_for_Greer_et_al/greer-et-al-xcc-phylogeny/03_workdir/files/GCA_020813075_1_ASM2081307v1_genomic.fna /data/djs217/PROJECTS/38_Figure_for_Greer_et_al/greer-et-al-xcc-phylogeny/03_workdir/files/GCA_020813075_1_ASM2081307v1_genomic.fna 2>/dev/null
-[RUNNING:] show-coords -r -I 97 -L 75 -T seq_seq3771010.delta | awk '$1 != $3 || $2 != $4 && $8==$9 {print}' > seq_seq3771010.coords
+[RUNNING:] nucmer --maxmatch --nosimplify --prefix=seq_seq188229 /data/djs217/PROJECTS/38_Figure_for_Greer_et_al/greer-et-al-xcc-phylogeny/03_workdir/files/GCA_020813075_1_ASM2081307v1_genomic.fna /data/djs217/PROJECTS/38_Figure_for_Greer_et_al/greer-et-al-xcc-phylogeny/03_workdir/files/GCA_020813075_1_ASM2081307v1_genomic.fna 2>/dev/null
+[RUNNING:] show-coords -r -I 97 -L 75 -T seq_seq188229.delta | awk '$1 != $3 || $2 != $4 && $8==$9 {print}' > seq_seq188229.coords
 
 Running self-nucmer on /data/djs217/PROJECTS/38_Figure_for_Greer_et_al/greer-et-al-xcc-phylogeny/03_workdir/files/X__campestris_pv_raphani_NCPPB_1946.fna
-[RUNNING:] nucmer --maxmatch --nosimplify --prefix=seq_seq3771089 /data/djs217/PROJECTS/38_Figure_for_Greer_et_al/greer-et-al-xcc-phylogeny/03_workdir/files/X__campestris_pv_raphani_NCPPB_1946.fna /data/djs217/PROJECTS/38_Figure_for_Greer_et_al/greer-et-al-xcc-phylogeny/03_workdir/files/X__campestris_pv_raphani_NCPPB_1946.fna 2>/dev/null
-[RUNNING:] show-coords -r -I 97 -L 75 -T seq_seq3771089.delta | awk '$1 != $3 || $2 != $4 && $8==$9 {print}' > seq_seq3771089.coords
+[RUNNING:] nucmer --maxmatch --nosimplify --prefix=seq_seq188321 /data/djs217/PROJECTS/38_Figure_for_Greer_et_al/greer-et-al-xcc-phylogeny/03_workdir/files/X__campestris_pv_raphani_NCPPB_1946.fna /data/djs217/PROJECTS/38_Figure_for_Greer_et_al/greer-et-al-xcc-phylogeny/03_workdir/files/X__campestris_pv_raphani_NCPPB_1946.fna 2>/dev/null
+[RUNNING:] show-coords -r -I 97 -L 75 -T seq_seq188321.delta | awk '$1 != $3 || $2 != $4 && $8==$9 {print}' > seq_seq188321.coords
 
 Repeat coords for all references found.
 Self-NUCmer complete
@@ -24,11 +24,11 @@ runContigNUCmer.pl -r /data/djs217/PROJECTS/38_Figure_for_Greer_et_al/greer-et-a
 Using given reference:  /data/djs217/PROJECTS/38_Figure_for_Greer_et_al/greer-et-al-xcc-phylogeny/03_workdir/files/X__campestris_pv_raphani_NCPPB_1946.fna
 Running nucmer on X__campestris_pv_raphani_NCPPB_1946_WHRI_6087_contig
 Running nucmer on X__campestris_pv_raphani_NCPPB_1946_WHRI_8892A_contig
-Running nucmer on X__campestris_pv_raphani_NCPPB_1946_CN01_contig
 Running nucmer on X__campestris_pv_raphani_NCPPB_1946_8004_contig
 Running nucmer on X__campestris_pv_raphani_NCPPB_1946_147_contig
 Running nucmer on X__campestris_pv_raphani_NCPPB_1946_WHRI_8497_contig
 Running nucmer on X__campestris_pv_raphani_NCPPB_1946_ATCC_33913_contig
+Running nucmer on X__campestris_pv_raphani_NCPPB_1946_CN19_contig
 Running nucmer on X__campestris_pv_raphani_NCPPB_1946_B100_contig
 Running nucmer on X__campestris_pv_raphani_NCPPB_1946_WHRI_6367_contig
 Running nucmer on X__campestris_pv_raphani_NCPPB_1946_WHRI_3820A_contig
@@ -57,36 +57,36 @@ buildSNPDB.pl -i /data/djs217/PROJECTS/38_Figure_for_Greer_et_al/greer-et-al-xcc
 
 Reading Gaps file.
 GCA_020813075_1_ASM2081307v1_genomic covered 0.99999 of the X__campestris_pv_raphani_NCPPB_1946 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-CFBP_6865R_contig covered 0.92556 of the X__campestris_pv_raphani_NCPPB_1946 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-REPEATS covered 0.99659 of the X__campestris_pv_raphani_NCPPB_1946 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-CN03_contig covered 0.92284 of the X__campestris_pv_raphani_NCPPB_1946 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-WHRI_8497_contig covered 0.92603 of the X__campestris_pv_raphani_NCPPB_1946 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-WHRI_8806_contig covered 0.91442 of the X__campestris_pv_raphani_NCPPB_1946 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-WHRI_6087_contig covered 0.92454 of the X__campestris_pv_raphani_NCPPB_1946 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-B100_contig covered 0.92099 of the X__campestris_pv_raphani_NCPPB_1946 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-CN01_contig covered 0.92259 of the X__campestris_pv_raphani_NCPPB_1946 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-WHRI_6022A_contig covered 0.92389 of the X__campestris_pv_raphani_NCPPB_1946 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-CN20_contig covered 0.92635 of the X__campestris_pv_raphani_NCPPB_1946 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-WHRI_3880_NCPPB_2986_contig covered 0.92565 of the X__campestris_pv_raphani_NCPPB_1946 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
 WHRI_8978_contig covered 0.92523 of the X__campestris_pv_raphani_NCPPB_1946 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
 8004_contig covered 0.92512 of the X__campestris_pv_raphani_NCPPB_1946 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8806_contig covered 0.91442 of the X__campestris_pv_raphani_NCPPB_1946 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+CN20_contig covered 0.92635 of the X__campestris_pv_raphani_NCPPB_1946 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_3820A_contig covered 0.92530 of the X__campestris_pv_raphani_NCPPB_1946 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+CN05_contig covered 0.91758 of the X__campestris_pv_raphani_NCPPB_1946 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
 CFBP_1119_contig covered 0.92065 of the X__campestris_pv_raphani_NCPPB_1946 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+147_contig covered 0.92384 of the X__campestris_pv_raphani_NCPPB_1946 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+CN19_contig covered 0.92259 of the X__campestris_pv_raphani_NCPPB_1946 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+B100_contig covered 0.92099 of the X__campestris_pv_raphani_NCPPB_1946 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_10018A_contig covered 0.92153 of the X__campestris_pv_raphani_NCPPB_1946 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
 WHRI_3843B_contig covered 0.92582 of the X__campestris_pv_raphani_NCPPB_1946 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-WHRI_6367_contig covered 0.92289 of the X__campestris_pv_raphani_NCPPB_1946 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+ATCC_33913_contig covered 0.92591 of the X__campestris_pv_raphani_NCPPB_1946 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+REPEATS covered 0.99659 of the X__campestris_pv_raphani_NCPPB_1946 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
 CN14_contig covered 0.92401 of the X__campestris_pv_raphani_NCPPB_1946 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
 WHRI_6382_NCPPB_1711_contig covered 0.91959 of the X__campestris_pv_raphani_NCPPB_1946 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-WHRI_1279A_contig covered 0.92130 of the X__campestris_pv_raphani_NCPPB_1946 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-CN15_contig covered 0.92401 of the X__campestris_pv_raphani_NCPPB_1946 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-WHRI_6185_contig covered 0.92380 of the X__campestris_pv_raphani_NCPPB_1946 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-WHRI_3820A_contig covered 0.92530 of the X__campestris_pv_raphani_NCPPB_1946 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-WHRI_10018A_contig covered 0.92153 of the X__campestris_pv_raphani_NCPPB_1946 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-CFBP_5817_contig covered 0.92215 of the X__campestris_pv_raphani_NCPPB_1946 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-CN05_contig covered 0.91758 of the X__campestris_pv_raphani_NCPPB_1946 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-WHRI_8892A_contig covered 0.92045 of the X__campestris_pv_raphani_NCPPB_1946 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-147_contig covered 0.92384 of the X__campestris_pv_raphani_NCPPB_1946 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
 CN16_contig covered 0.92404 of the X__campestris_pv_raphani_NCPPB_1946 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-ATCC_33913_contig covered 0.92591 of the X__campestris_pv_raphani_NCPPB_1946 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+CN03_contig covered 0.92284 of the X__campestris_pv_raphani_NCPPB_1946 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+CFBP_6865R_contig covered 0.92556 of the X__campestris_pv_raphani_NCPPB_1946 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6367_contig covered 0.92289 of the X__campestris_pv_raphani_NCPPB_1946 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6087_contig covered 0.92454 of the X__campestris_pv_raphani_NCPPB_1946 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8892A_contig covered 0.92045 of the X__campestris_pv_raphani_NCPPB_1946 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8497_contig covered 0.92603 of the X__campestris_pv_raphani_NCPPB_1946 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_1279A_contig covered 0.92130 of the X__campestris_pv_raphani_NCPPB_1946 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6022A_contig covered 0.92389 of the X__campestris_pv_raphani_NCPPB_1946 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+CN15_contig covered 0.92401 of the X__campestris_pv_raphani_NCPPB_1946 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
 X__campestris_pv_raphani_NCPPB_1946 covered 0.99999 of the X__campestris_pv_raphani_NCPPB_1946 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6185_contig covered 0.92380 of the X__campestris_pv_raphani_NCPPB_1946 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_3880_NCPPB_2986_contig covered 0.92565 of the X__campestris_pv_raphani_NCPPB_1946 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+CFBP_5817_contig covered 0.92215 of the X__campestris_pv_raphani_NCPPB_1946 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
 Printing Summary Statistics.
 Creating SNP alignment.
 Creating SNP stats file. 

@@ -7,12 +7,12 @@ B100_contig
 CFBP_1119_contig
 CFBP_5817_contig
 CFBP_6865R_contig
-CN01_contig
 CN03_contig
 CN05_contig
 CN14_contig
 CN15_contig
 CN16_contig
+CN19_contig
 CN20_contig
 WHRI_10018A_contig
 WHRI_1279A_contig
