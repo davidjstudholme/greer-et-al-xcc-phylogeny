@@ -2,7 +2,13 @@
 
 # Phylogenomic analysis of fourteen *Xcc* isolates used in manuscript by Greer et al. (2025)
 
-Here we document the methods used to generate the phylogenomic tree seen in Figure 2 of the manuscript submitted to *Plant Pathology* by Greer and colleagues and rendered in iTOL [here](https://itol.embl.de/tree/14417323152216801750521114).
+Here we document the methods used to generate the phylogenomic tree seen in Figure 2 of the manuscript entitled
+**Identification of Race-Specific, Clade-Specific and Broad-Spectrum Resistance to *Xanthomonas campestris* pv. *campestris* in *Brassica* Diversity Fixed Foundation Sets**
+by Shannon F. Greer, Jamie Harrison, Daisy Bown, Maria Serrano, Rana Muhammed Fraz Hussain, Srayan Ghosh, Graham R. Teakle, Vardis Ntoukakis, David J. Studholme, Joana G. Vicente, and Murray Grant,
+published in *Plant Pathology* [https://doi.org/10.1111/ppa.70074](https://doi.org/10.1111/ppa.70074).
+
+This tree is rendered in iTOL [here](https://itol.embl.de/tree/14417323152216801750521114).
+
 It uses the PhaME pipeline that is describe in this paper:
 - Shakya M, Ahmed SA, Davenport KW, Flynn MC, Lo CC, Chain PSG. Standardized phylogenetic and molecular evolutionary analysis applied to species across the microbial tree of life. Sci Rep. 2020 Feb 3;10(1):1723. 
 
