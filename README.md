@@ -1,4 +1,4 @@
-![DOI](https://zenodo.org/badge/1003917332.svg)](https://doi.org/10.5281/zenodo.15713394)
+[![DOI](https://zenodo.org/badge/1003917332.svg)](https://doi.org/10.5281/zenodo.15713394)
 
 # Phylogenomic analysis of fourteen *Xcc* isolates used in manuscript by Greer et al. (2025)
 
